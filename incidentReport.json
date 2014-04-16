@@ -1,41 +1,15 @@
 {
-  "appsUsingForm":0,
-  "dateCreated":"2014-04-16T16:21:33.538Z",
-  "description":"Form for reporting incidents & their severity, a signature and optional picture.",
-  "fieldRef":{
-    "c1042":{
-      "page":0,
-      "field":0
-    },
-    "c1127":{
-      "page":0,
-      "field":1
-    },
-    "c1197":{
-      "page":0,
-      "field":2
-    },
-    "c1317":{
-      "page":0,
-      "field":3
-    },
-    "c1490":{
-      "page":0,
-      "field":4
-    },
-    "c1378":{
-      "page":0,
-      "field":5
-    }
-  },
-  "fieldRules":[
+  "updatedBy":"testing-admin@example.com",
+  "name":"Incident Report",
+  "description":"Form for reporting incidents that have happened, including severity and optional picture.",
+  "_id":"5",
+  "subscribers":[
 
   ],
-  "name":"Incident Report",
-  "pageRef":{
-    "534eae0d454143b251e290c2":0
-  },
   "pageRules":[
+
+  ],
+  "fieldRules":[
 
   ],
   "pages":[
@@ -49,10 +23,11 @@
             }
           },
           "required":true,
-          "repeating":false,
           "type":"text",
           "name":"Incident Summary",
-          "helpText":"Provide a short description for what happened"
+          "helpText":"Provide a short description for what happened",
+          "_id":"534eaf14454143b251e290c4",
+          "repeating":false
         },
         {
           "fieldOptions":{
@@ -61,10 +36,11 @@
             }
           },
           "required":true,
-          "repeating":false,
           "type":"textarea",
           "name":"Incident details",
-          "helpText":"Provide all relevant details about this incident"
+          "helpText":"Provide all relevant details about this incident",
+          "_id":"534eaf14454143b251e290c5",
+          "repeating":false
         },
         {
           "fieldOptions":{
@@ -96,10 +72,11 @@
             }
           },
           "required":true,
-          "repeating":false,
           "type":"dropdown",
           "name":"Severity of this incident",
-          "helpText":"How soon"
+          "helpText":"How soon",
+          "_id":"534eaf14454143b251e290c6",
+          "repeating":false
         },
         {
           "fieldOptions":{
@@ -111,10 +88,11 @@
             }
           },
           "required":false,
-          "repeating":false,
           "type":"location",
           "name":"Incident Location",
-          "helpText":"Specify where this location happened"
+          "helpText":"Specify where this location happened",
+          "_id":"534eaf14454143b251e290c7",
+          "repeating":false
         },
         {
           "fieldOptions":{
@@ -127,10 +105,11 @@
             }
           },
           "required":false,
-          "repeating":false,
           "type":"photo",
           "name":"Incident Photo(s)",
-          "helpText":"Add a photograph of this incident where relevant"
+          "helpText":"Add a photograph of this incident where relevant",
+          "_id":"534eaf14454143b251e290c8",
+          "repeating":false
         },
         {
           "fieldOptions":{
@@ -139,47 +118,45 @@
             }
           },
           "required":true,
-          "repeating":false,
           "type":"signature",
           "name":"Signature",
-          "helpText":"I acknowledge all reported details are accurate to the best of my knowledge"
+          "helpText":"I acknowledge all reported details are accurate to the best of my knowledge",
+          "_id":"534eaf14454143b251e290c9",
+          "repeating":false
         }
       ]
     }
   ],
-  "submissionsToday":0,
-  "submissionsTotal":0,
-  "subscribers":[
-
-  ],
-  "updatedBy":"testing-admin@example.com",
-  "fetchCalled":true,
-  "_id":"5",
-  "lastUpdated":"2014-04-16T16:25:31.000Z",
-  "lastUpdatedTimestamp":1397665407345,
-  "title":"Incident Report",
-  "mainid":"534eae0d454143b251e290c3",
-  "type":"forms",
-  "fieldref":{
-    "c1042":{
+  "lastUpdated":"2014-04-16T16:25:56.420Z",
+  "dateCreated":"2014-04-16T16:21:33.538Z",
+  "pageRef":{
+    "534eae0d454143b251e290c2":0
+  },
+  "fieldRef":{
+    "534eaf14454143b251e290c4":{
       "page":0,
       "field":0
     },
-    "c1127":{
+    "534eaf14454143b251e290c5":{
       "page":0,
       "field":1
     },
-    "c1197":{
+    "534eaf14454143b251e290c6":{
       "page":0,
       "field":2
     },
-    "c1317":{
+    "534eaf14454143b251e290c7":{
       "page":0,
       "field":3
     },
-    "c1378":{
+    "534eaf14454143b251e290c8":{
       "page":0,
       "field":4
+    },
+    "534eaf14454143b251e290c9":{
+      "page":0,
+      "field":5
     }
-  }
+  },
+  "lastUpdatedTimestamp":1397665556420
 }

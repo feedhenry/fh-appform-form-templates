@@ -1,33 +1,15 @@
 {
-  "appsUsingForm":0,
-  "dateCreated":"2014-04-16T17:08:45.837Z",
+  "updatedBy":"testing-admin@example.com",
+  "name":"Citizens Report",
   "description":"App for reporting physical defects or issues within a business or community",
-  "fieldRef":{
-    "c3275":{
-      "page":0,
-      "field":0
-    },
-    "c3512":{
-      "page":0,
-      "field":1
-    },
-    "c3376":{
-      "page":0,
-      "field":2
-    },
-    "c3443":{
-      "page":0,
-      "field":3
-    }
-  },
-  "fieldRules":[
+  "_id":"6",
+  "subscribers":[
 
   ],
-  "name":"Citizens Report",
-  "pageRef":{
-    "534eb91d6546ebb051e3fabd":0
-  },
   "pageRules":[
+
+  ],
+  "fieldRules":[
 
   ],
   "pages":[
@@ -74,9 +56,10 @@
             }
           },
           "required":true,
-          "repeating":false,
           "type":"dropdown",
-          "name":"Defect Type"
+          "name":"Defect Type",
+          "_id":"534eb9e1454143b251e290ca",
+          "repeating":false
         },
         {
           "fieldOptions":{
@@ -85,10 +68,11 @@
             }
           },
           "required":true,
-          "repeating":false,
           "type":"textarea",
           "name":"Defect Description",
-          "helpText":"Enter a detailed description of the issue, e.g. Streetlight Flickering, Footpath Cracked"
+          "helpText":"Enter a detailed description of the issue, e.g. Streetlight Flickering, Footpath Cracked",
+          "_id":"534eb9e1454143b251e290cb",
+          "repeating":false
         },
         {
           "fieldOptions":{
@@ -100,10 +84,11 @@
             }
           },
           "required":true,
-          "repeating":false,
           "type":"location",
           "name":"Location",
-          "helpText":"Capture the location of this issue"
+          "helpText":"Capture the location of this issue",
+          "_id":"534eb9e1454143b251e290cc",
+          "repeating":false
         },
         {
           "fieldOptions":{
@@ -112,25 +97,37 @@
             }
           },
           "required":false,
-          "repeating":false,
           "type":"photo",
           "name":"Photo",
-          "helpText":"Capture an optional photo of this issue"
+          "helpText":"Capture an optional photo of this issue",
+          "_id":"534eb9e1454143b251e290cd",
+          "repeating":false
         }
       ]
     }
   ],
-  "submissionsToday":0,
-  "submissionsTotal":0,
-  "subscribers":[
-
-  ],
-  "updatedBy":"testing-admin@example.com",
-  "fetchCalled":true,
-  "_id":"6",
-  "lastUpdated":"2014-04-16T17:08:45.838Z",
-  "lastUpdatedTimestamp":1397668125838,
-  "title":"Citizens Report",
-  "mainid":"534eb91d6546ebb051e3fabe",
-  "type":"forms"
+  "lastUpdated":"2014-04-16T17:12:01.030Z",
+  "dateCreated":"2014-04-16T17:08:45.837Z",
+  "pageRef":{
+    "534eb91d6546ebb051e3fabd":0
+  },
+  "fieldRef":{
+    "534eb9e1454143b251e290ca":{
+      "page":0,
+      "field":0
+    },
+    "534eb9e1454143b251e290cb":{
+      "page":0,
+      "field":1
+    },
+    "534eb9e1454143b251e290cc":{
+      "page":0,
+      "field":2
+    },
+    "534eb9e1454143b251e290cd":{
+      "page":0,
+      "field":3
+    }
+  },
+  "lastUpdatedTimestamp":1397668321030
 }
