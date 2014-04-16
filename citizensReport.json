@@ -2,6 +2,7 @@
   "updatedBy":"testing-admin@example.com",
   "name":"Citizens Report",
   "description":"App for reporting physical defects or issues within a business or community",
+  "icon" : "icon-leaf",
   "_id":"6",
   "subscribers":[
 

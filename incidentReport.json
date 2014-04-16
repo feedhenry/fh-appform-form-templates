@@ -3,6 +3,7 @@
   "name":"Incident Report",
   "description":"Form for reporting incidents that have happened, including severity and optional picture.",
   "_id":"5",
+  "icon" : "icon-warning-sign",
   "subscribers":[
 
   ],
