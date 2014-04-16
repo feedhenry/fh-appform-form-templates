@@ -200,7 +200,6 @@
               ]
             }
           },
-          "required":true,
           "type":"checkboxes",
           "name":"Checkboxes",
           "helpText":"Checkboxes",
