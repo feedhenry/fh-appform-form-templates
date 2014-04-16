@@ -1,0 +1,136 @@
+{
+  "appsUsingForm":0,
+  "dateCreated":"2014-04-16T17:08:45.837Z",
+  "description":"App for reporting physical defects or issues within a business or community",
+  "fieldRef":{
+    "c3275":{
+      "page":0,
+      "field":0
+    },
+    "c3512":{
+      "page":0,
+      "field":1
+    },
+    "c3376":{
+      "page":0,
+      "field":2
+    },
+    "c3443":{
+      "page":0,
+      "field":3
+    }
+  },
+  "fieldRules":[
+
+  ],
+  "name":"Citizens Report",
+  "pageRef":{
+    "534eb91d6546ebb051e3fabd":0
+  },
+  "pageRules":[
+
+  ],
+  "pages":[
+    {
+      "_id":"534eb91d6546ebb051e3fabd",
+      "fields":[
+        {
+          "fieldOptions":{
+            "validation":{
+              "validateImmediately":true
+            },
+            "definition":{
+              "options":[
+                {
+                  "label":"Pothole",
+                  "checked":false
+                },
+                {
+                  "label":"Streetlight",
+                  "checked":false
+                },
+                {
+                  "checked":false,
+                  "name":"",
+                  "label":"Graffiti"
+                },
+                {
+                  "checked":false,
+                  "name":"",
+                  "label":"Sidewalk / Footpath"
+                },
+                {
+                  "checked":false,
+                  "name":"",
+                  "label":"Damaged Signage"
+                },
+                {
+                  "checked":false,
+                  "name":"",
+                  "label":"Other"
+                }
+              ],
+              "include_blank_option":false
+            }
+          },
+          "required":true,
+          "repeating":false,
+          "type":"dropdown",
+          "name":"Defect Type"
+        },
+        {
+          "fieldOptions":{
+            "validation":{
+              "validateImmediately":true
+            }
+          },
+          "required":true,
+          "repeating":false,
+          "type":"textarea",
+          "name":"Defect Description",
+          "helpText":"Enter a detailed description of the issue, e.g. Streetlight Flickering, Footpath Cracked"
+        },
+        {
+          "fieldOptions":{
+            "validation":{
+              "validateImmediately":true
+            },
+            "definition":{
+              "locationUnit":"latlong"
+            }
+          },
+          "required":true,
+          "repeating":false,
+          "type":"location",
+          "name":"Location",
+          "helpText":"Capture the location of this issue"
+        },
+        {
+          "fieldOptions":{
+            "validation":{
+              "validateImmediately":true
+            }
+          },
+          "required":false,
+          "repeating":false,
+          "type":"photo",
+          "name":"Photo",
+          "helpText":"Capture an optional photo of this issue"
+        }
+      ]
+    }
+  ],
+  "submissionsToday":0,
+  "submissionsTotal":0,
+  "subscribers":[
+
+  ],
+  "updatedBy":"testing-admin@example.com",
+  "fetchCalled":true,
+  "_id":"534eb91d6546ebb051e3fabe",
+  "lastUpdated":"2014-04-16T17:08:45.838Z",
+  "lastUpdatedTimestamp":1397668125838,
+  "title":"Citizens Report",
+  "mainid":"534eb91d6546ebb051e3fabe",
+  "type":"forms"
+}

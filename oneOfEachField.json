@@ -1,5 +1,5 @@
 {
-  "_id":"52f8f594b123473576000002",
+  "_id":"2",
   "description":"One Of Each Form",
   "name":"One Of Each",
   "updatedBy":"testing-admin@example.com",
@@ -26,8 +26,6 @@
         {
           "fieldOptions":{
             "definition":{
-              "minRepeat":1,
-              "maxRepeat":5
             },
             "validation":{
               "min":"5"
@@ -38,14 +36,12 @@
           "name":"Text",
           "helpText":"Input Some Text",
           "_id":"52f8f5bab279773576000003",
-          "repeating":true
+          "repeating":false
         },
         {
           "fieldOptions":{
             "definition":{
-              "defaultValue":"3",
-              "minRepeat":1,
-              "maxRepeat":5
+              "defaultValue":"3"
             },
             "validation":{
               "min":"34"
@@ -56,20 +52,18 @@
           "name":"Number",
           "helpText":"Enter A Number",
           "_id":"52f8f642012ae43676000005",
-          "repeating":true
+          "repeating":false
         },
         {
           "fieldOptions":{
             "definition":{
-              "minRepeat":1,
-              "maxRepeat":5
             }
           },
           "required":true,
           "type":"url",
           "name":"Web URL",
           "_id":"52f8f642012ae43676000006",
-          "repeating":true
+          "repeating":false
         },
         {
           "fieldOptions":{
@@ -83,9 +77,7 @@
                   "label":"Radio 2",
                   "checked":true
                 }
-              ],
-              "minRepeat":1,
-              "maxRepeat":5
+              ]
             }
           },
           "required":true,
@@ -93,7 +85,7 @@
           "name":"Radio",
           "helpText":"Radio Buttons",
           "_id":"52f8f642012ae43676000007",
-          "repeating":true
+          "repeating":false
         }
       ]
     },
@@ -112,9 +104,7 @@
         {
           "fieldOptions":{
             "definition":{
-              "locationUnit":"latlong",
-              "minRepeat":1,
-              "maxRepeat":5
+              "locationUnit":"latlong"
             }
           },
           "required":true,
@@ -122,13 +112,11 @@
           "name":"Location",
           "helpText":"Location Lat Long",
           "_id":"52f8f642012ae43676000002",
-          "repeating":true
+          "repeating":false
         },
         {
           "fieldOptions":{
             "definition":{
-              "minRepeat":1,
-              "maxRepeat":5
             }
           },
           "required":true,
@@ -136,14 +124,12 @@
           "name":"Signature",
           "helpText":"Write A Signature",
           "_id":"52f8f6d2012ae43676000009",
-          "repeating":true
+          "repeating":false
         },
         {
           "fieldOptions":{
             "definition":{
-              "defaultValue":"Paragraph",
-              "minRepeat":1,
-              "maxRepeat":5
+              "defaultValue":"Paragraph"
             },
             "validation":{
               "min":"4"
@@ -154,13 +140,11 @@
           "name":"Paragraph",
           "helpText":"Paragraph",
           "_id":"52f8f6d2012ae4367600000a",
-          "repeating":true
+          "repeating":false
         },
         {
           "fieldOptions":{
             "definition":{
-              "minRepeat":1,
-              "maxRepeat":5
             }
           },
           "required":true,
@@ -168,7 +152,7 @@
           "name":"E-Mail",
           "helpText":"Enter Email Address",
           "_id":"52f8f6d2012ae4367600000b",
-          "repeating":true
+          "repeating":false
         },
         {
           "required":true,
@@ -226,8 +210,6 @@
         {
           "fieldOptions":{
             "definition":{
-              "minRepeat":1,
-              "maxRepeat":5
             }
           },
           "required":true,
@@ -235,13 +217,11 @@
           "name":"Map",
           "helpText":"Map Location",
           "_id":"52f8f765012ae4367600000f",
-          "repeating":true
+          "repeating":false
         },
         {
           "fieldOptions":{
             "definition":{
-              "minRepeat":1,
-              "maxRepeat":5,
               "photoHeight":"1000",
               "photoWidth":"1000",
               "photoQuality":"50"
@@ -252,14 +232,12 @@
           "name":"Photo Capture",
           "helpText":"Photo Capture",
           "_id":"52f8f765012ae43676000010",
-          "repeating":true
+          "repeating":false
         },
         {
           "fieldOptions":{
             "definition":{
-              "datetimeUnit":"time",
-              "minRepeat":1,
-              "maxRepeat":5
+              "datetimeUnit":"time"
             }
           },
           "required":true,
@@ -267,14 +245,12 @@
           "name":"Date Stamp",
           "helpText":"Time Only",
           "_id":"52f8f7ab012ae43676000011",
-          "repeating":true
+          "repeating":false
         },
         {
           "fieldOptions":{
             "definition":{
-              "datetimeUnit":"date",
-              "minRepeat":1,
-              "maxRepeat":5
+              "datetimeUnit":"date"
             }
           },
           "required":true,
@@ -282,14 +258,12 @@
           "name":"Date Stamp",
           "helpText":"Date Only",
           "_id":"52f8f7ab012ae43676000012",
-          "repeating":true
+          "repeating":false
         },
         {
           "fieldOptions":{
             "definition":{
-              "datetimeUnit":"datetime",
-              "minRepeat":1,
-              "maxRepeat":5
+              "datetimeUnit":"datetime"
             }
           },
           "required":true,
@@ -297,7 +271,7 @@
           "name":"Date Stamp",
           "helpText":"Date And Time",
           "_id":"52f8f7ab012ae43676000013",
-          "repeating":true
+          "repeating":false
         }
       ]
     }
